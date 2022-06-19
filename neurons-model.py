@@ -1,6 +1,3 @@
-import os
-import cv2
-import numpy as np
 import tensorflow as tf
 mnist = tf.keras.datasets.mnist
 
@@ -18,9 +15,8 @@ model.add(tf.keras.layers.Dense(200, activation='relu'))
 model.add(tf.keras.layers.Dense(10, activation='softmax'))                                                      
 model.compile(optimizer='RMSprop', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=3)              
+model.fit(x_train, y_train, epochs=3)            
 model.save('handwritten.model')
-
 
 loss, accuracy = model.evaluate(x_test, y_test)
 
