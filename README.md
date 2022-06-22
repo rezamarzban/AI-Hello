@@ -14,3 +14,5 @@ Also "neurons-model" Linux executable file for arm64 devices is available at Rel
 "./neurons-model"
 
 In this case you do not need to installing Python compiler and its modules especially heavy AI "tensorflow" module.
+
+Unfortunately, Because of some solutions single binary executable file is not available for "predict.py" currently. We solve it at the future!
