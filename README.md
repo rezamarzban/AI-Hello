@@ -16,8 +16,8 @@ Also "neurons-model" Linux executable file for arm64 devices is available at Rel
 In this case you do not need to installing Python compiler and its modules especially heavy AI "tensorflow" module.
 
 Before downloading and running above command, Do these:
-1- Check if your device disk and RAM size will be high as necessary, Other wise program will be encouraged an error and closed.
+1- Check if your device disk and RAM size will be high as necessary, Otherwise program will be encouraged an error and closed.
 2- Update system certificates by running "sudo apt-get install ca-certificates" command.
-3- Check if you have internet connection and have access to the "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz" URL address.
+3- Check if you have internet connection and right access to the "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz" URL address.
 
-Unfortunately, Because of some solutions single binary executable file is not available for "predict.py" currently. We solve it at the future!
+Unfortunately, Because of some solutions single binary executable file is not available for "predict.py" currently. We will solve it at future!
