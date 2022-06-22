@@ -13,4 +13,4 @@ Also "neurons-model" Linux executable file for arm64 devices is available at thi
 
 "./neurons-model"
 
-In this case you do not need to installing Python compiler and its modules especially heavy tensorflow module.
+In this case you do not need to installing Python compiler and its modules especially heavy AI "tensorflow" module.
