@@ -9,7 +9,7 @@ Then EVERYTIME that you want to read a digit from any image run below command:
 
 "python3 predict.py"
 
-Also "neurons-model" Linux executable file for arm64 devices is available at this page, After download simply run:
+Also "neurons-model" Linux executable file for arm64 devices is available at Releases section, After download simply run:
 
 "./neurons-model"
 
