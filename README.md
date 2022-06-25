@@ -18,6 +18,5 @@ In this case you do not need to installing Python compiler and its modules espec
 Before downloading and running above command, Do these:
 1- Check if your device disk and RAM size will be high as necessary, Otherwise program will be encouraged an error and closed.
 2- Update system certificates by running "sudo apt-get install ca-certificates" command.
-3- Check if you have internet connection and right access to the "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz" URL address.
 
 Unfortunately, Because of some solutions single binary executable file is not available for "predict.py" currently. We will solve it at future!
