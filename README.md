@@ -1,7 +1,7 @@
 # AI-Hello
 Simple code to reading a handwritten digit number from any image by using Python AI libraries
 
-First run below command to building neuronal network for this model ONCE TIME:
+First run below command to building neural network for this model ONCE TIME:
 
 "python3 neurones-model.py"
 
