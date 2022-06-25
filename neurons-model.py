@@ -10,7 +10,7 @@ cur_dir = os.getcwd()
 
 #Print shape of dataset, 
 #Here are 60,000 training images with labels which each image resolution is 28×28 pixels.
-#Also here are 60,000 testing images with labels.
+#Also here are 10,000 testing images with labels.
 #print(x_train.shape, y_train.shape)
 #print(x_test.shape, y_test.shape)
 
