@@ -25,6 +25,7 @@ model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Conv2D(32, kernel_size= (3, 3), activation= 'relu', padding= 'same', input_shape= (28, 28, 1)))
 model.add(tf.keras.layers.Conv2D(32, kernel_size= (3, 3), activation= 'relu'))
 model.add(tf.keras.layers.MaxPool2D(pool_size= (2, 2)))
+#Each dropout function after each maxpool cause model will be trained with lower quality of image with noises, Which cause better prediction later.
 model.add(tf.keras.layers.Dropout(0.25))
 model.add(tf.keras.layers.Conv2D(64, kernel_size= (3, 3), activation= 'relu', padding= 'same'))
 model.add(tf.keras.layers.Conv2D(64, kernel_size= (3, 3), activation= 'relu'))
