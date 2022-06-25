@@ -52,8 +52,11 @@ model.compile(optimizer='Adam', loss='sparse_categorical_crossentropy', metrics=
 
 #More epochs cause maximum accuracy, At 50 epochs it will reach 100% accuracy but it take about five hours to be completed.
 model.fit(x_train, y_train, epochs=5)
+
+#Save model for after using.
 model.save('handwritten.model')
 
+#Measure loss and accuracy of model by test images and labels.
 loss, accuracy = model.evaluate(x_test, y_test)
 
 print(loss)
