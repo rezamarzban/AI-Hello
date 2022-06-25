@@ -37,6 +37,7 @@ model.add(tf.keras.layers.Dropout(0.25))
 model.add(tf.keras.layers.Flatten())
 #Neurons
 model.add(tf.keras.layers.Dense(512, activation='relu'))
+#Each dropout function after each neurons layer cause other neurons (which not dropped) will be forced to be trained more to prevent over fitting.
 model.add(tf.keras.layers.Dropout(0.2))
 model.add(tf.keras.layers.Dense(256, activation='relu'))
 model.add(tf.keras.layers.Dropout(0.2))
