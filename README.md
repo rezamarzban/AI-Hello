@@ -5,7 +5,7 @@ First run below command to building neural network with 99% accuracy for this mo
 
 "python3 neurones-model.py"
 
-Then EVERYTIME that you want to read a digit from any image run below command:
+Then EVERYTIME that you want to read a digit from any existing image in the project directory run below command and input image file name with its extension:
 
 "python3 predict.py"
 
