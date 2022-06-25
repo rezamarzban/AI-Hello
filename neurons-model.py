@@ -5,7 +5,7 @@ import os
 #Get working directory path.
 cur_dir = os.getcwd()
 
-#Load mnist dataset from downloaded local mnist.npz file.
+#Load mnist dataset from local downloaded mnist.npz file.
 (x_train, y_train), (x_test, y_test) = mnist.load_data(path=cur_dir+'/mnist.npz')
 
 #Print shape of dataset, 
