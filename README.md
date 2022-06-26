@@ -9,11 +9,9 @@ Then EVERYTIME that you want to read a digit from any existing image in the proj
 
 "python3 predict.py"
 
-Also Linux executable binary files for arm64 devices are available at Releases section, After download simply run:
+Also "neurons-model" Linux executable binary file for arm64 devices is available at Releases section, After download simply run:
 
 "./neurons-model"
-
-"./predict"
 
 In this case you do not need to installing Python compiler and its modules especially heavy AI "tensorflow" module.
 
