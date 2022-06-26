@@ -9,6 +9,12 @@ Then EVERYTIME that you want to read a digit from any existing image in the proj
 
 "python3 predict.py"
 
+Or:
+
+"python3 predict-PIL.py"
+
+The "predict.py" and "predict-PIL.py" do same work, But the first use OpenCV library to processing images and the second use PIL library to processing images.
+
 Also "neurons-model" Linux executable binary file for arm64 devices is available at Releases section, After download simply run:
 
 "./neurons-model"
