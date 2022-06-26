@@ -9,7 +9,7 @@ Then EVERYTIME that you want to read a digit from any existing image in the proj
 
 "python3 predict.py"
 
-Also Linux executable binary files arm64 devices are available at Releases section, After download simply run:
+Also Linux executable binary files for arm64 devices are available at Releases section, After download simply run:
 
 "./neurons-model"
 
