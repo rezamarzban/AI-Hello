@@ -18,6 +18,9 @@ Also Linux executable binary files arm64 devices are available at Releases secti
 In this case you do not need to installing Python compiler and its modules especially heavy AI "tensorflow" module.
 
 Before downloading and running above command, Do these:
+
 1- Check if your device disk and RAM size will be high as necessary, Otherwise program will be encouraged an error and closed.
+
 2- Update system certificates by running "sudo apt-get install ca-certificates" command if needed.
+
 3- Download "mnist.npz" dataset file from this repository to working directory.
