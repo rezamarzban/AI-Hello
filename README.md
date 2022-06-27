@@ -13,7 +13,7 @@ Or:
 
 "python3 predict-PIL.py"
 
-The "predict.py" and "predict-PIL.py" do same work, But the first one use OpenCV library to processing images and the second one use PIL library to processing images.
+The "predict.py" and "predict-PIL.py" do same work, But the first one use OpenCV library to processing images and the second one use pillow library to processing images.
 
 Also Linux executable binary files has been built by pyinstaller for arm64 devices is available at Releases section, After download simply run:
 
@@ -30,3 +30,5 @@ Before downloading and running above command, Do these:
 2- Update system certificates by running "sudo apt-get install ca-certificates" command if needed.
 
 3- Download "mnist.npz" dataset file from this repository to working directory.
+
+4- Run "chmod -c 755 ..." to changing access permission of files if needed.
