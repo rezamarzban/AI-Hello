@@ -30,7 +30,7 @@ Or:
 
 The "predict.py" and "predict-PIL.py" do same work, But the first one use OpenCV library to processing images and the second one use pillow library to processing images.
 
-Also Linux executable binary files has been built by pyinstaller for arm64 devices is available at Releases section, After download simply run:
+Also Linux executable binary files has been built by pyinstaller for arm64 devices and are available in Releases section, After download simply run:
 
 "./neurons-model"
 
