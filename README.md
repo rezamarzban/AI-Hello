@@ -13,13 +13,15 @@ Or:
 
 "python3 predict-PIL.py"
 
-The "predict.py" and "predict-PIL.py" do same work, But the first use OpenCV library to processing images and the second use PIL library to processing images.
+The "predict.py" and "predict-PIL.py" do same work, But the first one use OpenCV library to processing images and the second one use PIL library to processing images.
 
-Also "neurons-model" Linux executable binary file for arm64 devices is available at Releases section, After download simply run:
+Also Linux executable binary files has been built by pyinstaller for arm64 devices is available at Releases section, After download simply run:
 
 "./neurons-model"
 
-In this case you do not need to installing Python compiler and its modules especially heavy AI "tensorflow" module.
+"./predict-PIL"
+
+In this case you do not need to installing anything such as Python compiler and its modules especially heavy AI "tensorflow" module.
 
 Before downloading and running above command, Do these:
 
