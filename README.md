@@ -1,6 +1,21 @@
 # AI-Hello
 Simple code to reading a handwritten digit number from any image by using Python AI libraries and neural network.
 
+Requirements for compiling codes:
+
+-System with strong CPU and high RAM hardwares
+
+-Python3
+
+-tensorflow library
+
+-OpenCV library
+
+-Numpy library
+
+-pillow library
+
+
 First run below command to building neural network with 99% accuracy for this model ONCE TIME:
 
 "python3 neurones-model.py"
