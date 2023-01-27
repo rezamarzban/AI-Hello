@@ -55,7 +55,7 @@ model.add(tf.keras.layers.Dense(10, activation='softmax'))
 model.compile(optimizer='Adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 #More epochs cause maximum accuracy, At 50 epochs it will reach 100% accuracy but it take about five hours to be completed.
-model.fit(x_train, y_train, epochs=5)
+model.fit(x_train, y_train, epochs=100)
 
 #Save model for after using.
 model.save('handwritten.model')
