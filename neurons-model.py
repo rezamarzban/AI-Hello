@@ -2,11 +2,15 @@ import tensorflow as tf
 from tensorflow.keras.datasets import mnist
 import os
 
+#mnist = tf.keras.datasets.mnist
+
 #Get working directory path.
-cur_dir = os.getcwd()
+#cur_dir = os.getcwd()
 
 #Load mnist dataset from local downloaded mnist.npz file.
-(x_train, y_train), (x_test, y_test) = mnist.load_data(path=cur_dir+'/mnist.npz')
+#(x_train, y_train), (x_test, y_test) = mnist.load_data(path=cur_dir+'/mnist.npz')
+
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 #Print shape of dataset, 
 #Here are 60,000 training images with labels which each image resolution is 28×28 pixels.
