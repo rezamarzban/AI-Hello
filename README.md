@@ -46,6 +46,6 @@ Before downloading and running above command, Do these:
 
 2- Update system certificates by running "sudo apt-get install ca-certificates" command if needed.
 
-3- Download "mnist.npz" dataset file from Google to working directory.
+3- Download "mnist.npz" dataset file from Google to working directory if you want to load mnist datasets locally.
 
 4- Run "chmod -c 755 ..." to changing access permission of files if needed.
