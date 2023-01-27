@@ -1,7 +1,7 @@
 # AI-Hello
 Simple code to reading a handwritten digit number from any image by using Python AI libraries and neural network.
 
-Requirements for compiling codes:
+# Requirements
 
 -System with strong CPU and high RAM hardwares
 
@@ -15,12 +15,22 @@ Requirements for compiling codes:
 
 -pillow library
 
+# Quick run
+Run below commands in Colab
+```
+!git clone https://github.com/marzban2030/AI-Hello
+%cd AI-Hello
+!python neurons-model.py
+```
 
-First run below command to building neural network with 99% accuracy for this model ONCE TIME:
+Then run
+```
+!echo "Five.png" | python predict.py
+```
+
+For local running, Firstly run below command to building neural network with 99% accuracy for this model ONCE TIME:
 
 "python3 neurones-model.py"
-
-If you want to not running above command firstly, And if you want to using sample saved model, Then unzip "SampleSavedModel.zip" file in project directory.
 
 Then EVERYTIME that you want to read a digit from any existing image in the project directory run below command and input image file name with its extension when ask:
 
